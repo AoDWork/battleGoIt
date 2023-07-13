@@ -1,61 +1,97 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html {
-    height: 100%;
-    width: 100%;
-}
-body {
-    font-family: 'Montserrat', 
-    sans-serif;
-    width: 100%;
-    height: 100%;
-}
-.wrapper {
-    position: relative;
-    width: 1170px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-.goit-logo {
-    position: absolute;
-    left: 0;
-    top: 32px;
-}
-.city-page {
-    background: 
-    url('../img/background.jpg');
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.city-text-container {
-    background-color: #fff;
-    border-radius: 40px;
-    padding: 60px;
-    width: 573px;
 
+html {
+  height: 100%;
+  width: 100%;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 1170px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.goit-logo {
+  position: absolute;
+  left: 0;
+  top: 32px;
+}
+
+.city-page {
+  background: url("../img/background.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.city-text-container {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 60px;
+  width: 573px;
+}
+
 .city-title {
-    color: #1B1D1F;
-    font-size: 44px;
-    font-weight: 600;
-    line-height: 48px;
-    margin-bottom: 36px;
-    margin-top: 0;
-    display: block;
+  color: #1b1d1f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 36px;
+  margin-top: 0;
+  display: block;
 }
+
 .city-descr {
-    color: #1B1D1F;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
+
 .city-gallery {
-    height: 600px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.city-gallery-title {
+  color: #1b1d1f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 80px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-button {
+  width: calc(25% - 24px * 3 / 4);
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 48px;
+  background: none;
+  cursor: pointer;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 48px;
 }
